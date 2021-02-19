@@ -9,7 +9,7 @@ const Contact =({ data }) => {
     const {name,company, address } = data.site.siteMetadata.contact;
 
     return(
-        <layout>
+        <Layout>
         <SEO title ="Contact"/>
         <h1>Contact Us</h1>
         <p>please send all inquiries to: </p>
@@ -21,7 +21,7 @@ const Contact =({ data }) => {
         <Image/>
         </div>
         <Link to="/">Home</Link>
-        </layout>
+        </Layout>
     )
 }
 
