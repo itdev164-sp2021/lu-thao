@@ -17,10 +17,10 @@ module.exports = {
     {
       resolve:`gatsby-source-contentful`,
       options:{
-        spaceId:'ur0okin1tkhh',
-        accessToken:'7j72tVzkgJdQuyHylJnwgR0VspEiaAtC0zENyEtBpZc'
-        //spaceId: `${process.env.SPACE_ID}`,
-        //accessToken: `${process.env.ACCESS_TOKEN}`
+        //spaceId:'ur0okin1tkhh',
+        //accessToken:'7j72tVzkgJdQuyHylJnwgR0VspEiaAtC0zENyEtBpZc',
+        spaceId: `${process.env.SPACE_ID}`,
+        accessToken: `${process.env.ACCESS_TOKEN}`
       }
     },
     `gatsby-transformer-remark`,
